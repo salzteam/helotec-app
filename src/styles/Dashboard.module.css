@@ -1,0 +1,298 @@
+.container {
+    background-color: white;
+    padding: 1rem 4rem;
+    box-shadow: 1px black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-weight: 800;
+    font-size: 25px;
+}
+
+
+.chart-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.detail-top {
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    padding: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.total-baby {
+    background-color: #E7E1FB;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.total-top {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.totalText {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+}
+
+.icon-baby {
+    background-color: white;
+    padding: 8px;
+    color: black;
+    font-size: 18px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.value-total {
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.sehat {
+    background-color: #E8FAEA;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.cacat {
+    background-color: #FDF3E9;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.meninggal {
+    background-color: rgba(253, 66, 66, 0.808);
+    padding: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.title-chart {
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.chart-middle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 5rem 0;
+}
+
+.title-lahiran {
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.box-lahiran {
+    padding: 1rem 1rem;
+    width: 20%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.list-lahiran {
+    text-align: center;
+    width: 100%;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.container-box {
+    display: flex;
+    gap: 5rem;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.value-lahiran {
+    text-align: center;
+    padding: .5rem;
+    font-family: "Roboto Slab";
+    font-size: 25px;
+}
+
+.normal {
+    background-color: #6B9DFE;
+}
+
+.caesar {
+    background-color: #FFBC6E;
+}
+
+.waterbirth {
+    background-color: #E7E1FB;
+}
+
+.alat {
+    background-color: #EEF4FB;
+}
+
+.chart-bottom {
+    display: flex;
+    padding: 2rem 5rem;
+}
+
+.bottom-left,
+.bottom-right {
+    width: 50%;
+}
+
+.title-bottom {
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.container-gender {
+    display: flex;
+    background-color: #E7E1FB;
+    padding: 1.5rem 2rem;
+    gap: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.gender-laki {
+    width: 50%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.gender-perempuan {
+    width: 50%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.top-gender-laki,
+.top-gender-perempuan {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.value-gender {
+    text-align: center;
+    padding: 1.5rem;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.icon-gender {
+    font-size: 20px;
+}
+
+.avrage {
+    display: flex;
+    justify-content: center;
+}
+
+.value-avg {
+    background-color: #6B9DFE;
+    padding: 1rem;
+    width: 200px;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    height: 190px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.scrollview {
+    width: 100px;
+}
+
+.container-scroll {
+    display: flex;
+    justify-content: right;
+    padding-top: 1rem;
+    padding-right: 2rem;
+}

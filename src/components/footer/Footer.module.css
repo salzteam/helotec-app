@@ -1,0 +1,12 @@
+.container {
+    background-color: #1C2D35;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
