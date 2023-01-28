@@ -92,6 +92,6 @@ You may also see any lint errors in the console.
 <div align="center">
 <img width="500" src="./src/assets/img/ss1.png" alt="Home">
 <img width="500" src="./src/assets/img/ss2.png" alt="Home">
-<img width="500" src="./src/assets/img/ss3.png" alt="Home">
+<img width="500" src="./src/assets/img/ss3.jpg" alt="Home">
 
 </div>
